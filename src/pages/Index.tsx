@@ -30,8 +30,8 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-secondary">
-      <header className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 border-b border-border">
+    <div className="min-h-screen bg-gradient-to-b from-background via-background to-secondary">
+      <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md z-50 border-b border-border">
         <nav className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -100,7 +100,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="py-20 px-4 bg-white">
+      <section id="services" className="py-20 px-4 bg-secondary/50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <Badge className="mb-4" variant="outline">
@@ -229,7 +229,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="prices" className="py-20 px-4 bg-white">
+      <section id="prices" className="py-20 px-4 bg-secondary/50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <Badge className="mb-4" variant="outline">
@@ -366,7 +366,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="steps" className="py-20 px-4 bg-white">
+      <section id="steps" className="py-20 px-4 bg-secondary/50">
         <div className="container mx-auto">
           <div className="text-center mb-16">
             <Badge className="mb-4" variant="outline">
@@ -508,7 +508,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-foreground text-background py-12 px-4">
+      <footer className="bg-black/40 text-foreground py-12 px-4 border-t border-border">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
